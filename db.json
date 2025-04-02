@@ -1,0 +1,63 @@
+
+
+{
+   "products": [
+        {
+            "id": 1,
+            "name": "Wireless Headphones",
+            "price": "60",
+            "previousprice": "120",
+            "image1":"/images/Wireless-Headphones.jpg",
+            "image2":"/images/Wireless-Headphones.jpg",
+            "image3":"/images/Wireless-Headphones.jpg",
+            "image4":"/images/Wireless-Headphones.jpg",
+            "title": "Good Audio Wirless Headphones",
+            "numOfItemsToAddToCart": 0,
+            "description": "This is a durable, water proof wireless headset with a long-lasting battery. It also has a noise cancellation feature hence making it perfect for meetings",
+            "section": ["men", "women"]
+        },
+        {
+            "id": 2,
+            "name": "Blue Dress",
+            "price": "125.6",
+            "previousprice": "251.2",
+            "image1":"/images/Blue-dress.jpg",
+            "image2":"/images/Blue-dress.jpg",
+            "image3":"/images/Blue-dress.jpg",
+            "image4":"/images/Blue-dress.jpg",
+            "title": "Fancy Strapless Prom Gown",
+            "numOfItemsToAddToCart": 0,
+            "description": "Strapless beaded sequin blue gown is perfect for prom. it has an in-built padded chest area and this makes it suitable to be worn without a bra.",
+            "section": ["women"]
+        },
+        {
+            "id": 3,
+            "name": "Pink Heels",
+            "price": "175",
+            "previousprice": "350",
+            "image1": "/images/Pink-heels.jpg",
+            "image2": "/images/Pink-heels.jpg",
+            "image3": "/images/Pink-heels.jpg",
+            "image4": "/images/Pink-heels.jpg",
+            "title": "High Heeled Stilletos Pink Shoe",
+            "numOfItemsToAddToCart": 0,
+            "description": "Hot pink 6-inch stilletos shoes. Perfect with any outfit. It amkes the legs look a mile longer, Grab yours now!",
+            "section": ["women"]
+        },
+
+        {
+            "id": 4,
+            "name": "Sneaker Company",
+            "price": "125",
+            "previousprice": "250",
+            "image1": "/images/image-product-1.jpg",
+            "image2": "/images/image-product-2.jpg",
+            "image3": "/images/image-product-3.jpg",
+            "image4": "/images/image-product-4.jpg",
+            "title": "Fall Limited Edition Sneakers",
+            "numOfItemsToAddToCart": 0,
+            "section": ["men"],
+            "description": " These low profile sneakers are your perfert casual wear companion. Featuring a durable rubber outer sole, they will withstand everything the weather can offer."
+        }
+    ]
+}

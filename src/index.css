@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@font-face {
+  font-family:  'Kumbh Sans';
+  src: url("https://fonts.google.com/specimen/Kumbh+Sans");
+} 
+:root {
+  --font-family: 'Kumbh Sans', 'sans-serif',
+}
