@@ -25,7 +25,9 @@ const Navbar = () => {
                     <span className="absolute top-[-10px] right-[-12px] text-xs rounded-lg text-white bg-blue-700 px-2">{getCartTotalNumOfProduct()}</span>
                     <img src="/images/icon-cart.svg" alt="shopping basket image" />
                  </NavLink>
-                 <img src="/images/image-avatar.png" alt="profile picture"/>
+                 <NavLink to="/profile">
+                   <img src="/images/image-avatar.png" alt="profile picture"/>
+                 </NavLink>
              </div>
          </nav>
       </header>

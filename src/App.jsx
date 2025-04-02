@@ -11,7 +11,8 @@ import MenPage from "./pages/MenPage";
 import NotFoundPage from "./pages/NotFoundPage"
 import { CartProvider } from "./components/CartProvider";
 import EachProductPage from "./pages/EachProductPage";
-
+import ProfilePage from "./pages/ProfilePage";
+import ContactPage from "./pages/ContactPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,6 +22,8 @@ const router = createBrowserRouter(
     <Route path="/women" element={<WomenPage/>}/>
     <Route path="/men" element={<MenPage/>}/>
     <Route path="/products/:id" element={<EachProductPage/>}/>
+    <Route path="/profile" element={<ProfilePage/>}/>
+    <Route path="/contact" element={<ContactPage/>}/>
     <Route path="*" element={<NotFoundPage/>}/>
 </Route>
   )
