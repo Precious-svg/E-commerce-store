@@ -10,12 +10,12 @@ const Navbar = () => {
   return (
     <div>
       <header>
-          <nav className="grid grid-cols-6 px-[120px] gap-2 my-2 py-2">
+          <nav className="grid grid-cols-6 px-[120px] gap-2 my-2 py-0.5">
              <div className='col-span-4 col-start-1 flex flex-row items-center justify-around gap-4'>
-                 <h2>SNEAKERS</h2>
+                 <h2 className="font-bold text-2xl">SNEAKERS</h2>
                  <NavLink to="/collections" className={LinkClass}>Collections</NavLink>
                  <NavLink to="/men" className={LinkClass}>Men</NavLink>
-                 <NavLink to="/women" className={LinkClass}>Women</NavLink>
+                 <NavLink to="/women"className={LinkClass}>Women</NavLink>
                  <NavLink to="/" className={LinkClass}>Home</NavLink>
                  <NavLink to="/contact" className={LinkClass}>Contact</NavLink>
               </div>
@@ -23,7 +23,7 @@ const Navbar = () => {
               <div className="col-span-1 col-start-6 flex flex-row items-center justify-around gap-4">
                   <NavLink to="/cart" className="relative">
                     <span className="absolute top-[-10px] right-[-12px] text-xs rounded-lg text-white bg-blue-700 px-2">{getCartTotalNumOfProduct()}</span>
-                    <img src="/images/icon-cart.svg" alt="shopping basket image" />
+                    <img src="/images/icon-cart.svg" alt="shopping basket image" className='w-20px h-20px' />
                  </NavLink>
                  <NavLink to="/profile">
                    <img src="/images/image-avatar.png" alt="profile picture"/>
